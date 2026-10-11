@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 1, Download the whole folder "online-resume" to your local drive, e.g. C:\
-2, Launch your IDE, e.g. MS Code, then open the folder through code
+2, Launch your IDE, e.g. MS Code, then open the folder through Code.
 3, In Code, go View -> Terminal then cd  to the folder location, e.g. C:\online-resume 
 
 ### Add your resume data
