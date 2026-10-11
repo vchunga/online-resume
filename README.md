@@ -1,8 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+1, Download the whole folder "online-resume" to your local drive, e.g. C:\
+2, Launch your IDE, e.g. MS Code, then open the folder through code
+3, In Code, go View -> Terminal then cd  to the folder location, e.g. C:\online-resume 
 
-First, run the development server:
+### Add your resume data
+
+The personal resume file is excluded from version control. Before running or
+building the site, copy `src/data/resume_sample.ts` to `src/data/resume.ts`.
+In the copied file, change `export const resumeSample` to `export const resume`,
+then replace the fictional sample values with your own. Keep the existing
+property names and data shapes so the site can display your information
+correctly. Review your contact details before deploying publicly.
+
+## Run the development server:
 
 ```bash
 npm run dev
